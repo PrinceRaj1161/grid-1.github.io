@@ -1,0 +1,85 @@
+img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5vw;
+    padding: 2rem;
+}
+
+.box 
+{
+    border: 1px solid grey;
+    box-sizing: border-box;
+    box-shadow: 2px solid black;
+    display: grid;
+    align-content: space-between;
+    background: whitesmoke;
+}
+
+
+.icon 
+{
+    font-size: 1.4rem;
+    padding: 0.4rem 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    background: gray;
+    color: rgb(122, 24, 24);
+}
+
+i 
+{
+    text-align: center;
+}
+
+.info 
+{
+    padding: 0 1rem;
+}
+h2 
+{
+    font-weight: 500;
+}
+
+a{
+    color: red;
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: 700;
+}
+
+a:hover 
+{
+    color: white;
+    background: red;
+}
+
+
+
+@media screen and (min-width: 810px) 
+{
+    .container 
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

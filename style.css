@@ -1,0 +1,37 @@
+* 
+{
+    margin: 0;
+}
+a 
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: large;
+    color: brown;
+}
+a:hover 
+{
+    color: black;
+}
+.box 
+{
+    width: 100%;
+    background: rgb(169, 185, 185);
+    padding: 1rem 2rem;
+    letter-spacing: 0.20rem;
+}
+
+@media screen and (min-width:1120px)
+{
+    .box
+    {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .container 
+    {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: space-between;
+    }
+}

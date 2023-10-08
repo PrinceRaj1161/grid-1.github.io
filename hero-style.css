@@ -1,0 +1,77 @@
+
+*
+{
+    letter-spacing: 0.10rem;
+    color: white;
+    margin: 0;
+}
+
+body 
+{
+    background: linear-gradient(rgba(182, 142, 68, 0.6),rgba(152, 111, 36, 0.7)), url(./images/image-2.jpeg) fixed; 
+}
+
+.container
+{
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+h1
+{
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    padding: 0rem 2rem;
+}
+p
+{
+    max-width: 600px;
+    padding: 2rem;
+    word-spacing: 1rem;
+    font-size: 1.1rem;
+}
+
+.back
+{
+    height: 30vh;
+    background: white;
+}
+
+a{
+    color: red;
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: 700;
+}
+
+a:hover 
+{
+    color: white;
+    background: red;
+}
+
+@media screen and (max-width: 700px) {
+    body 
+    {
+        background: orange;
+    }
+
+    .container 
+    {
+        padding: 1rem;
+    }
+
+    h1 
+    {
+        font-size: 3.5rem;
+    }
+    p
+    {
+        font-size: 0.87rem;
+    }
+}
